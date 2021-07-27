@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/javabot.iml" filepath="$PROJECT_DIR$/javabot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javabot-KR.iml" filepath="$PROJECT_DIR$/javabot-KR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javabot-KR-plus.iml" filepath="$PROJECT_DIR$/javabot-KR-plus.iml" />
+    </modules>
+  </component>
+</project>
