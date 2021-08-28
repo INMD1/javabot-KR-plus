@@ -38,7 +38,7 @@ public TextAreaOutputStream(JTextArea txtara) {
     }
 
 public TextAreaOutputStream(JTextArea txtara, int maxlin) {
-    if(maxlin<1) { throw new IllegalArgumentException("TextAreaOutputStream 최대 행은 양수 여야합니다. (value="+maxlin+")"); }
+    if(maxlin<1) { throw new IllegalArgumentException("TextAreaOutputStream 최대 행은 양수이어야 합니다. (value="+maxlin+")"); }
     oneByte=new byte[1];
     appender=new Appender(txtara,maxlin);
     }

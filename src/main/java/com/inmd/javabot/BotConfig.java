@@ -77,11 +77,6 @@ public class BotConfig {
 
             // set values
             token = config.getString("token");
-
-            //spotify
-            clientId = config.getString("clientId");
-            clientSecret = config.getString("clientSecret");
-            redirectUri = config.getString("redirectUri");
             
             prefix = config.getString("prefix");
             altprefix = config.getString("altprefix");
@@ -194,14 +189,6 @@ public class BotConfig {
 
     public String getToken() {
         return token;
-    }
-
-    public String getClientId() {
-        return clientId;
-    }
-
-    public String getClientSecret() {
-        return clientSecret;
     }
 
     public long getOwnerId() {
