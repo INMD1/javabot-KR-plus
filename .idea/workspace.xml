@@ -10,26 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89842b03-e1e7-4590-94cf-6cd59c37ca2a" name="Default Changelist" comment="태초마을부터">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/SettcCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/SettcCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/SetvcCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/SetvcCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/mute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/ForceRemoveCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/ForceRemoveCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/MoveTrackCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/MoveTrackCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/PauseCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/PauseCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/PlaynextCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/PlaynextCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/RepeatCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/RepeatCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/SkiptoCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/SkiptoCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/StopCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/StopCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/general/SettingsCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/general/SettingsCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/NowplayingCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/NowplayingCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/PlayCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/PlayCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/PlaylistsCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/PlaylistsCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/RemoveCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/RemoveCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/SearchCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/SearchCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/SkipCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/SkipCmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/plugin/testsystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/javabot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/javabot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/VolumeCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/VolumeCmd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +102,7 @@
       <workItem from="1627307406667" duration="677000" />
       <workItem from="1627367811618" duration="452000" />
       <workItem from="1627379512000" duration="309000" />
+      <workItem from="1630214847670" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1624336722211</created>

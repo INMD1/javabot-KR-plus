@@ -33,7 +33,7 @@ public class VolumeCmd extends DJCommand
         super(bot);
         this.name = "volume";
         this.aliases = bot.getConfig().getAliases(this.name);
-        this.help = "음량 설정 또는 표시 합니다.";
+        this.help = "음량 설정 또는 현재 설정된 값을 표시 합니다.";
         this.arguments = "[0-150]";
     }
 

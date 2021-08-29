@@ -52,7 +52,7 @@ public class PlayCmd extends MusicCommand
         this.loadingEmoji = bot.getConfig().getLoading();
         this.name = "play";
         this.arguments = "<title|URL|subcommand>";
-        this.help = "(유튜브/클플)에 있는 노래를 재생합니다.";
+        this.help = "(유튜브/사운드클라우드)에 있는 노래를 재생합니다.";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.beListening = true;
         this.bePlaying = false;
@@ -77,7 +77,7 @@ public class PlayCmd extends MusicCommand
                 return;
             }
             StringBuilder builder = new StringBuilder(event.getClient().getWarning()+" Play Commands:\n");
-            builder.append("\n`").append(event.getClient().getPrefix()).append(name).append(" <song title>` - 유튜브에서 첫 번째 결과를 재생 합니다.");
+            builder.append("\n`").append(event.getClient().getPrefix()).append(name).append(" <song title>` - (유튜브/사운드클라우드)에서 첫 번째 결과를 재생 합니다.");
             builder.append("\n`").append(event.getClient().getPrefix()).append(name).append(" <URL>` - 제공된 노래, 재생 목록 또는 스트림을 재생합니다.");
             for(Command cmd: children)
                 builder.append("\n`").append(event.getClient().getPrefix()).append(name).append(" ").append(cmd.getName()).append(" ").append(cmd.getArguments()).append("` - ").append(cmd.getHelp());

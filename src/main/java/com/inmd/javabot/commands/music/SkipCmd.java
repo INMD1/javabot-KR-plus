@@ -32,7 +32,7 @@ public class SkipCmd extends MusicCommand
     {
         super(bot);
         this.name = "skip";
-        this.help = "현재 틀고있는 노래를 건너 뜀니다.(권한필요)";
+        this.help = "현재 틀고있는 노래를 건너 뜀니다.";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.beListening = true;
         this.bePlaying = true;
