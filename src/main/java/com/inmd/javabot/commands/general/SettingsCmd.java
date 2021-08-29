@@ -38,7 +38,7 @@ public class SettingsCmd extends Command
     public SettingsCmd(Bot bot)
     {
         this.name = "settings";
-        this.help = "봇 설정을 보여줍니다.";
+        this.help = "관리자가 설정한 봇의 정보를 표시합니다.";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.guildOnly = true;
     }

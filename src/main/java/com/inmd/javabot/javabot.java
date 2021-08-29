@@ -130,8 +130,7 @@ public class javabot
                         new SetnameCmd(bot),
                         new SetstatusCmd(bot),
                         new ShutdownCmd(bot),
-                        
-                        new testsystem(bot),
+
                         new systeminfo(bot),
                         new lyrics(bot)
 

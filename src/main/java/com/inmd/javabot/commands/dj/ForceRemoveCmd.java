@@ -39,7 +39,7 @@ public class ForceRemoveCmd extends DJCommand
     {
         super(bot);
         this.name = "forceremove";
-        this.help = "사용자가 대기열에서 모든 항목을 제거합니다.";
+        this.help = "유저가 대기열에 있는 음악들을 삭제합니다.";
         this.arguments = "<user>";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.beListening = false;

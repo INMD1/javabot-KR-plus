@@ -18,7 +18,7 @@ public class MoveTrackCmd extends DJCommand
     {
         super(bot);
         this.name = "movetrack";
-        this.help = "현재 대기열의 트랙을 다른 위치로 이동 합니다.";
+        this.help = "현재 플레이리스트에 있는 음악의 순서를 변경합니다.";
         this.arguments = "<from> <to>";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.bePlaying = true;

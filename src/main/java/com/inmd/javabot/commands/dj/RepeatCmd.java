@@ -30,7 +30,7 @@ public class RepeatCmd extends DJCommand
     {
         super(bot);
         this.name = "repeat";
-        this.help = "완료되면 음악을 다시 재생합니다.";
+        this.help = "현재 음악을 반복 재생합니다.";
         this.arguments = "[on|off]";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.guildOnly = true;

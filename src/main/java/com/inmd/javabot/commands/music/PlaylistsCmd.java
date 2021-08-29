@@ -30,7 +30,7 @@ public class PlaylistsCmd extends MusicCommand
     {
         super(bot);
         this.name = "playlists";
-        this.help = "사용 가능한 재생 목록을 보여줌니다";
+        this.help = "사용 가능한 재생목록을 보여줌니다";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.guildOnly = true;
         this.beListening = false;
@@ -44,19 +44,19 @@ public class PlaylistsCmd extends MusicCommand
             bot.getPlaylistLoader().createFolder();
         if(!bot.getPlaylistLoader().folderExists())
         {
-            event.reply(event.getClient().getWarning()+" 재생 목록 폴더가 존재하지 않아 만들 수 없습니다!");
+            event.reply(event.getClient().getWarning()+" 재생목록 폴더가 존재하지 않아 만들 수 없습니다!");
             return;
         }
         List<String> list = bot.getPlaylistLoader().getPlaylistNames();
         if(list==null)
-            event.reply(event.getClient().getError()+" 사용 가능한 재생 목록을로드하지 못했습니다!");
+            event.reply(event.getClient().getError()+" 사용 가능한 재생목록을로드하지 못했습니다!");
         else if(list.isEmpty())
-            event.reply(event.getClient().getWarning()+" 재생 목록 폴더에 재생 목록이 없습니다!");
+            event.reply(event.getClient().getWarning()+" 재생 록 폴더에 재생 목록이 없습니다!");
         else
         {
-            StringBuilder builder = new StringBuilder(event.getClient().getSuccess()+"사용 가능한 재생 목록 :\n");
+            StringBuilder builder = new StringBuilder(event.getClient().getSuccess()+"사용 가능한 재생목록 :\n");
             list.forEach(str -> builder.append("`").append(str).append("` "));
-            builder.append("\nType `").append(event.getClient().getTextualPrefix()).append("재생 목록을 재생하려면 `<prefix>play playlist <name>`을 (를) 재생하십시오");
+            builder.append("\nType `").append(event.getClient().getTextualPrefix()).append("재생목록을 재생하려면 `<prefix>play playlist <name>`을 (를) 재생하십시오");
             event.reply(builder.toString());
         }
     }

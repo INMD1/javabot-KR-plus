@@ -52,7 +52,7 @@ public class PlayCmd extends MusicCommand
         this.loadingEmoji = bot.getConfig().getLoading();
         this.name = "play";
         this.arguments = "<title|URL|subcommand>";
-        this.help = "(유투브/클플)에 있는 노래를 재생합니다.";
+        this.help = "(유튜브/클플)에 있는 노래를 재생합니다.";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.beListening = true;
         this.bePlaying = false;

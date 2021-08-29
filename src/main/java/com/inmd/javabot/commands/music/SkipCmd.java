@@ -32,7 +32,7 @@ public class SkipCmd extends MusicCommand
     {
         super(bot);
         this.name = "skip";
-        this.help = "현재 틀고있는 노래를 건너 뜀니다.(투표로 건너뛰기도 가능합니다)";
+        this.help = "현재 틀고있는 노래를 건너 뜀니다.(권한필요)";
         this.aliases = bot.getConfig().getAliases(this.name);
         this.beListening = true;
         this.bePlaying = true;
@@ -46,31 +46,6 @@ public class SkipCmd extends MusicCommand
         {
             event.reply(event.getClient().getSuccess()+" 스킵되었습니다. **"+handler.getPlayer().getPlayingTrack().getInfo().title+"**");
             handler.getPlayer().stopTrack();
-        }
-        else
-        {
-            int listeners = (int)event.getSelfMember().getVoiceState().getChannel().getMembers().stream()
-                    .filter(m -> !m.getUser().isBot() && !m.getVoiceState().isDeafened()).count();
-            String msg;
-            if(handler.getVotes().contains(event.getAuthor().getId()))
-                msg = event.getClient().getWarning()+" 이 노래를 건너 뛰기로 이미 투표했습니다. `[";
-            else
-            {
-                msg = event.getClient().getSuccess()+" 노래를 건너 뛰기로 투표했습니다. `[";
-                handler.getVotes().add(event.getAuthor().getId());
-            }
-            int skippers = (int)event.getSelfMember().getVoiceState().getChannel().getMembers().stream()
-                    .filter(m -> handler.getVotes().contains(m.getUser().getId())).count();
-            int required = (int)Math.ceil(listeners * .55);
-            msg+= skippers+" 투표, "+required+"/"+listeners+" 필로했었습니다.]`";
-            if(skippers>=required)
-            {
-                User u = event.getJDA().getUserById(handler.getRequester());
-                msg+="\n"+event.getClient().getSuccess()+" Skipped **"+handler.getPlayer().getPlayingTrack().getInfo().title
-                    +"**"+(handler.getRequester()==0 ? "" : " (에 의해 요청 "+(u==null ? "유저이름" : "**"+u.getName()+"**")+")");
-                handler.getPlayer().stopTrack();
-            }
-            event.reply(msg);
         }
     }
     

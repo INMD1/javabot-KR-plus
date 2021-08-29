@@ -9,13 +9,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89842b03-e1e7-4590-94cf-6cd59c37ca2a" name="Default Changelist" comment="test uploading">
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sedmelluq_lavaplayer_1_3_67.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sedmelluq_lavaplayer_1_3_78.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sedmelluq_lavaplayer_natives_1_3_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sedmelluq_lavaplayer_natives_1_3_14.xml" afterDir="false" />
+    <list default="true" id="89842b03-e1e7-4590-94cf-6cd59c37ca2a" name="Default Changelist" comment="태초마을부터">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabot-KR-plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javabot-KR-plus.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/SettcCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/SettcCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/SetvcCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/SetvcCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/admin/mute.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/ForceRemoveCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/ForceRemoveCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/MoveTrackCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/MoveTrackCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/PauseCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/PauseCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/PlaynextCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/PlaynextCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/RepeatCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/RepeatCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/SkiptoCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/SkiptoCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/StopCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/StopCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/general/SettingsCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/general/SettingsCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/NowplayingCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/NowplayingCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/PlayCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/PlayCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/PlaylistsCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/PlaylistsCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/RemoveCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/RemoveCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/SearchCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/SearchCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/SkipCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/music/SkipCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/plugin/testsystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/javabot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/javabot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,22 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.javabot" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
