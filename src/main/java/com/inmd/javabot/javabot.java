@@ -78,7 +78,7 @@ public class javabot
         Bot bot = new Bot(waiter, config, settings);
         
         AboutCommand aboutCommand = new AboutCommand(Color.BLUE.brighter(),
-                                "[혼자서 쉽게 셋팅 할수 있는 봇] (https://github.com/INMD1/javabot-BETA) (v"+version+")",
+                                "[혼자서 쉽게 셋팅 할수 있는 봇] (https://github.com/INMD1/javabot-KR-plus) (v"+version+")",
                                 new String[]{"고품질 음악 재생 ","FairQueue ™ 기술 ","손쉬운 호스팅 "},
                                 RECOMMENDED_PERMS);
         aboutCommand.setIsAuthor(false);
@@ -184,7 +184,7 @@ public class javabot
         }
         catch (LoginException ex)
         {
-            prompt.alert(Prompt.Level.ERROR, "JAVA-KR", ex + "\n당신이 있는지 확인하십시오. "
+            prompt.alert(Prompt.Level.ERROR, "javabot-KR-plus", ex + "\n당신이 있는지 확인하십시오. "
                     + "올바른 config.txt 파일을 편집하고 "
                     + "올바른 토큰 ( '비밀'이 아님) \\ n 구성 위치 : " + config.getConfigLocation());
             System.exit(1);

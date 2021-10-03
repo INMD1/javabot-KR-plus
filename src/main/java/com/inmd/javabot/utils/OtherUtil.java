@@ -37,7 +37,7 @@ import org.json.JSONTokener;
  */
 public class OtherUtil
 {
-    public final static String NEW_VERSION_AVAILABLE = "javabot-BETA의 새로운 버전이 있습니다!\n"
+    public final static String NEW_VERSION_AVAILABLE = "javabot-KR-plus의 새로운 버전이 있습니다!\n"
                     + "현재 버전 : %s\n"
                     + "새로운 버전: %s\n\n"
                     + "최신 릴리스를 얻으려면 https://github.com/INMD1/javabot-KR-plus/releases 를 방문하십시오.";
@@ -171,7 +171,7 @@ public class OtherUtil
         if(javabot.class.getPackage()!=null && javabot.class.getPackage().getImplementationVersion()!=null)
             return javabot.class.getPackage().getImplementationVersion();
         else
-            return "0.0.1";
+            return "0.0.5";
     }
     
     public static String getLatestVersion()

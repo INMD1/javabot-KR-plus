@@ -2,15 +2,43 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="javabot:jar" />
+      <artifact name="javabot-KR-plus:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89842b03-e1e7-4590-94cf-6cd59c37ca2a" name="Default Changelist" comment="태초마을부터">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/VolumeCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/commands/dj/VolumeCmd.java" afterDir="false" />
+    <list default="true" id="89842b03-e1e7-4590-94cf-6cd59c37ca2a" name="Default Changelist" comment="JDK 11 -&gt; 16">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/javabot_KR_plus_jar/javabot-KR-plus.jar" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/javabot_KR_plus_jar/javabot-KR-plus.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabot-KR-plus.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javabot-KR-plus.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/javabot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/javabot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/utils/OtherUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inmd/javabot/utils/OtherUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/admin/SettcCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/admin/SettcCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/admin/SetvcCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/admin/SetvcCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/admin/mute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/ForceRemoveCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/ForceRemoveCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/MoveTrackCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/MoveTrackCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/PauseCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/PauseCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/PlaynextCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/PlaynextCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/RepeatCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/RepeatCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/SkiptoCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/SkiptoCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/StopCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/StopCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/VolumeCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/dj/VolumeCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/general/SettingsCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/general/SettingsCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/NowplayingCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/NowplayingCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/PlayCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/PlayCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/PlaylistsCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/PlaylistsCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/RemoveCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/RemoveCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/SCSearchCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/SCSearchCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/SearchCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/SearchCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/SkipCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/music/SkipCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/commands/plugin/testsystem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/javabot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/javabot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inmd/javabot/utils/OtherUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/inmd/javabot/utils/OtherUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +72,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDK" />
     <property name="project.structure.proportion" value="0.15940054" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -71,6 +99,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.javabot" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,7 +135,17 @@
       <workItem from="1627307406667" duration="677000" />
       <workItem from="1627367811618" duration="452000" />
       <workItem from="1627379512000" duration="309000" />
-      <workItem from="1630214847670" duration="618000" />
+      <workItem from="1630214847670" duration="2015000" />
+      <workItem from="1630217200682" duration="35000" />
+      <workItem from="1631006083146" duration="88000" />
+      <workItem from="1631006281025" duration="1230000" />
+      <workItem from="1631894900775" duration="25000" />
+      <workItem from="1632929664352" duration="76000" />
+      <workItem from="1633195557012" duration="174000" />
+      <workItem from="1633244693227" duration="58000" />
+      <workItem from="1633270854262" duration="748000" />
+      <workItem from="1633272434568" duration="346000" />
+      <workItem from="1633274518808" duration="874000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1624336722211</created>
@@ -146,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627368161109</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="드 가자">
+      <created>1630216303875</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1630216303875</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +217,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="test uploading" />
-    <option name="LAST_COMMIT_MESSAGE" value="test uploading" />
+    <MESSAGE value="드 가자" />
+    <MESSAGE value="JDK 11 -&gt; 16" />
+    <option name="LAST_COMMIT_MESSAGE" value="JDK 11 -&gt; 16" />
   </component>
 </project>
