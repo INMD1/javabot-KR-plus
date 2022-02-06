@@ -1,3 +1,8 @@
+# 공지사항
+
+이번에 Java에서 JS로 변경될 예정이므로 이 프로젝트는 정지되었습니다.
+
+
 # JMusicBot(원본)
 
 [![Downloads](https://img.shields.io/github/downloads/jagrosh/MusicBot/total.svg)](https://github.com/jagrosh/MusicBot/releases/latest)
